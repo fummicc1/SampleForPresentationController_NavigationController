@@ -14,6 +14,10 @@
 		D30F145821F40D9F00C26EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30F145621F40D9F00C26EF5 /* LaunchScreen.storyboard */; };
 		D30F146321F40DA000C26EF5 /* SampleProject_PresentationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F146221F40DA000C26EF5 /* SampleProject_PresentationControllerTests.swift */; };
 		D30F146E21F40DA000C26EF5 /* SampleProject_PresentationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F146D21F40DA000C26EF5 /* SampleProject_PresentationControllerUITests.swift */; };
+		D30F147C21F40E7F00C26EF5 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F147B21F40E7F00C26EF5 /* ModalViewController.swift */; };
+		D30F148021F4100600C26EF5 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F147F21F4100600C26EF5 /* PresentationController.swift */; };
+		D30F148221F4154F00C26EF5 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F148121F4154F00C26EF5 /* NavigationController.swift */; };
+		D30F148421F416B600C26EF5 /* ModalSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30F148321F416B600C26EF5 /* ModalSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D30F146921F40DA000C26EF5 /* SampleProject_PresentationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProject_PresentationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30F146D21F40DA000C26EF5 /* SampleProject_PresentationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProject_PresentationControllerUITests.swift; sourceTree = "<group>"; };
 		D30F146F21F40DA000C26EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30F147B21F40E7F00C26EF5 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		D30F147F21F4100600C26EF5 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		D30F148121F4154F00C26EF5 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D30F148321F416B600C26EF5 /* ModalSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		D30F144C21F40D9D00C26EF5 /* SampleProject_PresentationController */ = {
 			isa = PBXGroup;
 			children = (
+				D30F145921F40D9F00C26EF5 /* Info.plist */,
 				D30F144D21F40D9D00C26EF5 /* AppDelegate.swift */,
+				D30F148321F416B600C26EF5 /* ModalSecondViewController.swift */,
+				D30F147B21F40E7F00C26EF5 /* ModalViewController.swift */,
+				D30F148121F4154F00C26EF5 /* NavigationController.swift */,
+				D30F147F21F4100600C26EF5 /* PresentationController.swift */,
 				D30F144F21F40D9D00C26EF5 /* ViewController.swift */,
-				D30F145121F40D9D00C26EF5 /* Main.storyboard */,
 				D30F145421F40D9F00C26EF5 /* Assets.xcassets */,
 				D30F145621F40D9F00C26EF5 /* LaunchScreen.storyboard */,
-				D30F145921F40D9F00C26EF5 /* Info.plist */,
+				D30F145121F40D9D00C26EF5 /* Main.storyboard */,
 			);
 			path = SampleProject_PresentationController;
 			sourceTree = "<group>";
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30F148021F4100600C26EF5 /* PresentationController.swift in Sources */,
 				D30F145021F40D9D00C26EF5 /* ViewController.swift in Sources */,
+				D30F148421F416B600C26EF5 /* ModalSecondViewController.swift in Sources */,
+				D30F148221F4154F00C26EF5 /* NavigationController.swift in Sources */,
+				D30F147C21F40E7F00C26EF5 /* ModalViewController.swift in Sources */,
 				D30F144E21F40D9D00C26EF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
